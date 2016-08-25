@@ -1,0 +1,20 @@
+import numpy as np
+x = np.array([[1, 2, 3], [4,5,6]])
+print(x)
+print(type(x))
+print(x.shape)
+x = np.full((3, 2),7)
+print(x)
+x = np.eye(4)
+print(x)
+e = np.random.random((2,2))
+print(e)
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+print(a)
+b=a[:2 , 1:3]
+print(b)
+b[0,0]=77
+print(a)
+a = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+b = np.array([0, 2, 0, 1])
+print(b)
